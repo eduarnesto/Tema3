@@ -31,6 +31,9 @@ public class Ejercicio8 {
 		
 		//Imprimo la altura del arbol mas grande
 		System.out.println("El árbol más alto tiene " + mayor + "cm");
+		
+		//Cierro el scanner
+		sc.close();
 	}
 
 }
