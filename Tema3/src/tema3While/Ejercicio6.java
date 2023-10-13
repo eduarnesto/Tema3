@@ -41,7 +41,9 @@ public class Ejercicio6 {
 		}
 		
 		//Calcula la media de las edades
-		media = suma/alumnos;
+		if(alumnos>0) {
+			media = suma/alumnos;
+		}
 		
 		//Imprimo las estadísticas
 		System.out.println("La suma de todas las edades introducidas es " + suma);

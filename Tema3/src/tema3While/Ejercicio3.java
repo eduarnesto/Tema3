@@ -38,7 +38,7 @@ public class Ejercicio3 {
 		}
 		
 		// Imprimimos el resultado de la suma
-		System.out.println("La media de los numeros introducidos es: " + media);
+		System.out.println("La media de los numeros positivos introducidos es: " + media);
 		sc.close();
 	}
 

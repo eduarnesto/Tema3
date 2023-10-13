@@ -21,7 +21,7 @@ public class Ejercicio4 {
 			} else {
 				System.out.println("El número es impar");
 			}
-			System.out.println("Introduzca un número. Introduzca el cero para salir");
+			System.out.println("Introduzca otro número. Introduzca el cero para salir");
 			numero = sc.nextInt();
 		}
 		

@@ -41,7 +41,6 @@ public class Ejercicio5 {
 			}
 			if (numero==0){
 				ceros++;
-				System.out.println(ceros);
 			}
 			if (numero<0){
 				sumaneg+=numero;
