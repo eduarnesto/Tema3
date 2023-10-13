@@ -24,13 +24,13 @@ public class Ejercicio5 {
 		float media = 0;
 		
 		//Variable para guardar cuantos números se han escrito
-		int i = 0;
+		int contador = 0;
 
 		// Scanner para leer del teclado
 		Scanner sc = new Scanner(System.in);
 		
-		while(i < 10) {
-			i++;
+		while(contador < 10) {
+			contador++;
 			
 			// Pedimos un número al usuario
 			System.out.println("Introduzca un número");
