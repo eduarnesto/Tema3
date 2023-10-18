@@ -47,8 +47,8 @@ public class Ejercicio5 {
 				negativos++;
 			}
 		}
-		//Calculo la media de los negativos
 		
+		//Calculo la media de los negativos
 		if(negativos>0) {
 			media=sumaneg/negativos;
 		}

@@ -27,7 +27,11 @@ public class Ejercicio7 {
 		
 		//Compruebo si el número coincide con el resultado
 		while (res!=sol) {
-			System.out.println("Ese número no es el correcto, introduzca otro número");
+			if(res>sol) {
+				System.out.println("El número es más pequeño");
+			} else {
+				System.out.println("El número es más grande");
+			}
 			res = sc.nextInt();
 		}
 		
