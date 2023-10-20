@@ -30,24 +30,21 @@ public class Ejercicio5 {
 			System.out.println("¿Tu número es mayor, igual o menor que " + num + "?");
 			
 			//Leo la cadena del teclado
-			respuesta=sc.next();
+			respuesta=sc.nextLine();
 			
 			if(respuesta.equalsIgnoreCase("Menor")) {
-				if(num>min) {
-					max=num;
-				}
+				max=num;
 			} else if (respuesta.equalsIgnoreCase("Mayor")) {
-				if (num<max) {
-					min=num;
-				}
+				min=num;
 			}
-			if(min==max-1) {
-				System.out.println("Has hecho trampas");
-			}
-		} while (!respuesta.equalsIgnoreCase("Igual"));
+		} while (!respuesta.equalsIgnoreCase("Igual")&&min!=max-1);
 		
-		//Muestro el número
-		System.out.println("Tu número es el " + num);
+		//Compruebo si ha hecho trampas
+		if(min==max-1) {
+			System.out.println("Has hecho trampas");
+		} else {
+			System.out.println("Tu número es el " + num);
+		}
 		
 		//Cierro el Scanner
 		sc.close();
